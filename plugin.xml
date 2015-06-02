@@ -27,6 +27,9 @@
 		<engine name="cordova" version=">=3.0.0" />
 	</engines>
 
+
+    <dependency id="android.support.v13" url="https://github.com/appfeel/cordova-plugin-android-support-v13"/>
+
 	<!-- android -->
 	<platform name="android">
 
@@ -63,7 +66,6 @@
 		<source-file src="src/android/com/plugin/gcm/GCMIntentService.java" target-dir="src/com/plugin/gcm/" />
 		<source-file src="src/android/com/plugin/gcm/PushHandlerActivity.java" target-dir="src/com/plugin/gcm/" />
 		<source-file src="src/android/com/plugin/gcm/PushPlugin.java" target-dir="src/com/plugin/gcm/" />
-		<source-file src="src/android/com/plugin/android-support-v13.jar" target-dir="libs/" />
 
 	</platform>
 
